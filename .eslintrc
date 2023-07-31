@@ -1,0 +1,22 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "n/prefer-global/process": "off",
+    "@typescript-eslint/quotes": [
+      "error",
+      "double",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "vue/component-tags-order": "off",
+    "@typescript-eslint/semi": "off",
+    "quote-props": "off"
+  },
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "browser": true,
+    "es6": true
+  }
+}

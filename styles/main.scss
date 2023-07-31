@@ -1,0 +1,25 @@
+@import "./base/tailwind.scss", "./fonts/fonts.scss", "./base/utilities.scss",
+"./base/animations.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 p-0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  @apply relative min-h-screen w-screen max-w-[100vw] overflow-x-hidden;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
